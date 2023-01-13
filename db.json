@@ -7,6 +7,26 @@
     }
   },
   "checkout": {
+    "popups": {
+      "background": {
+        "color": "white"
+      },
+      "offer": " Get 20% OFF",
+      "description": "Save 20% on your first purchase",
+      "offerButton": {
+        "title": "Get 20% OFF",
+        "style": {
+          "color": "pink"
+        }
+      },
+      "closePopup": {
+        "iconset": "AntDesign",
+        "iconName": "closecircle",
+        "size": 30,
+        "color": ""
+      },
+      "img": "https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+    },
     "background": { "color": "" },
     "title": "Confirm your order",
     "button": {
@@ -23,7 +43,7 @@
         "title": "Name",
         "placeholder": "Enter your Name"
       },
-      "email&phone": {
+      "emailAndPhone": {
         "title": "Email/Phone",
         "placeholder": "Enter your Email/Phone."
       }
